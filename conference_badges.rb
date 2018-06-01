@@ -5,6 +5,7 @@ end
 
 def batch_badge_creator(array_of_names)
   badges = []
+  badge_maker(array_of_names[0]) #will give me one badge 
   binding.pry
 end
 
