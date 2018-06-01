@@ -4,9 +4,11 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(array_of_names)
-  badges = []
+  #badges = []
+  # array_of_names = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+  
   array_of_names.map do |name|
-     badges << badge_maker(name)
+     badge_maker(name)
   end
   
 end
