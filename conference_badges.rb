@@ -5,10 +5,10 @@ end
 
 def batch_badge_creator(array_of_names)
   badges = []
-  array_of_names.each do |name|
+  array_of_names.map do |name|
      badges << badge_maker(name)
   end
-  badges
+  
 end
 
 def assign_rooms(list)
